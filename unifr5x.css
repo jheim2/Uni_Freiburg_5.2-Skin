@@ -12799,8 +12799,7 @@ h3.ilHeader {
 }
 #ilTopBar.ilTopBar {
   background-color: #004a99;
-  background-repeat: no-repeat;
-  height: 112px;
+  height: 30px;
 }
 .ilTopTitle {
   position: absolute;
