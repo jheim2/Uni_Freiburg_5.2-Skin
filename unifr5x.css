@@ -12844,7 +12844,7 @@ h3.ilHeader {
   border-top: 0px;
   padding: 0 10px 0 10px;
   font-size: 10pt;
-  color: #363534;
+  color: #white;
   border-right: 1px solid grey;
   margin: 0;
 }
@@ -12891,7 +12891,7 @@ h3.ilHeader {
   top: 36px;
 }
 #ilTopBarNav .dropdown-menu a {
-  color: #363534;
+  color: #white;
 }
 #ilTopBarNav .dropdown-menu a:hover {
   background-color: #2a6ebb;
@@ -12901,7 +12901,7 @@ h3.ilHeader {
   background-color: #5cc3af;
 }
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a {
-  color: #363534;
+  color: #white;
 }
 #ilMMSearchMenu p {
   color: #363534;
