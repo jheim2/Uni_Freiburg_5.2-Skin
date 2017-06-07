@@ -3618,7 +3618,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #5cc3af;
 }
 .nav-tabs > li {
   float: left;
@@ -3631,7 +3631,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 0px 0px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #e0e0e0;
+  border-color: #eeeeee #eeeeee #5cc3af;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -7353,7 +7353,7 @@ div.ilHeaderBanner img.ilHeaderImg {
   padding-right: 0;
 }
 div.ilBox {
-  background: url("../../../../templates/default/images/FramedBack.png") repeat-x;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/FramedBack.png") repeat-x;
   border: 1px solid #e0e0e0;
   padding: 10px;
   margin-bottom: 20px;
@@ -7506,7 +7506,7 @@ img.ilIcon {
   cursor: pointer;
   color: #557196;
   font-size: 110%;
-  background: url("../../../../templates/default/images/tree_col.svg") no-repeat 9px 10px #ffffff;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/tree_col.svg") no-repeat 9px 10px #ffffff;
 }
 .il_VAccordionInnerContainer {
   margin-bottom: 10px;
@@ -7517,7 +7517,7 @@ img.ilIcon {
 }
 .il_HAccordionHeadActive,
 .il_VAccordionHeadActive {
-  background-image: url("../../../../templates/default/images/tree_exp.svg");
+  background-image: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/tree_exp.svg");
   background-color: #ffffd0;
 }
 .ilAccHideContent {
@@ -7882,7 +7882,7 @@ a.ilTreeView:focus {
 }
 .jstree li,
 .jstree ins {
-  background: url("../../../../templates/default/images/jstree.svg") no-repeat;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/jstree.svg") no-repeat;
   vertical-align: top;
 }
 .jstree li {
@@ -7915,7 +7915,7 @@ a.ilTreeView:focus {
   background-position: -56px -19px;
 }
 .jstree a.jstree-loading .jstree-icon {
-  background: url("../../../../templates/default/images/throbber.gif") no-repeat center !important;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/throbber.gif") no-repeat center !important;
 }
 .jstree a.jstree-loading .loader {
   display: block;
@@ -7924,7 +7924,7 @@ a.ilTreeView:focus {
   margin-top: -25px;
   width: 30px;
   height: 30px;
-  background: url("../../../../templates/default/images/loader.svg") no-repeat center !important;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/loader.svg") no-repeat center !important;
 }
 .jstree .jstree-no-dots li,
 .jstree .jstree-no-dots .jstree-leaf > ins {
@@ -7970,13 +7970,13 @@ a.ilTreeView:focus {
   background: none transparent !important;
 }
 #vakata-dragged.jstree .jstree-ok {
-  background: url("../../../../templates/default/images/jstree.svg") no-repeat -2px -53px !important;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/jstree.svg") no-repeat -2px -53px !important;
 }
 #vakata-dragged.jstree .jstree-invalid {
-  background: url("../../../../templates/default/images/jstree.svg") no-repeat -18px -53px !important;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/jstree.svg") no-repeat -18px -53px !important;
 }
 #jstree-marker.jstree {
-  background: url("../../../../templates/default/images/jstree.svg") no-repeat -41px -57px !important;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/jstree.svg") no-repeat -41px -57px !important;
   text-indent: -100px;
 }
 .jstree a.jstree-search {
@@ -8166,7 +8166,7 @@ a.mailunread:visited {
 }
 /* --- Services/COPage ---*/
 a.ilEditSubmit {
-  background: url("../../../../templates/default/images/ButtonsBack.png") repeat-x bottom #ffffff;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/ButtonsBack.png") repeat-x bottom #ffffff;
   padding: 2px;
   margin: 0;
   border: 1px solid #bababa;
@@ -8184,7 +8184,7 @@ input.ilEditSubmit {
   font-size: 12px;
   line-height: 14px;
   cursor: pointer;
-  background: url("../../../../templates/default/images/ButtonsBack.png") repeat-x bottom #ffffff;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/ButtonsBack.png") repeat-x bottom #ffffff;
   border: 1px solid #bababa;
   border-bottom-color: #808080;
   border-right-color: #808080;
@@ -8826,7 +8826,7 @@ li.ilWikiBlockItem {
   padding: 0 15px 0 0;
 }
 input.ilOpenIDBox {
-  background: url("../../../../templates/default/images/openid.png") no-repeat 1px 2px #ffffff;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/openid.png") no-repeat 1px 2px #ffffff;
   padding-left: 20px;
 }
 [dir="rtl"] input.ilOpenIDBox {
@@ -9111,7 +9111,7 @@ div.ilTableHeaderTitleBlock {
   padding: 3px;
   font-size: 90%;
   color: #404040;
-  background: url("../../../../templates/default/images/block_top.png") repeat-x #f8f8f8;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/block_top.png") repeat-x #f8f8f8;
   border-bottom: 1px solid #e9e9e9;
 }
 div.ilTableHeaderTitle {
@@ -9703,7 +9703,7 @@ span.bibl_text_inline_Emph {
   width: 306px;
   color: #f0f0f0;
   margin-top: -240px;
-  background: url("../../../../templates/default/images/black60.png");
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/black60.png");
 }
 .ilPlayerPreviewOverlay img {
   cursor: pointer;
@@ -9717,10 +9717,10 @@ span.bibl_text_inline_Emph {
   color: #a0a0a0;
 }
 .mejs-overlay-button {
-  background-image: url("../../../../templates/default/images/bigplay.svg");
+  background-image: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/bigplay.svg");
 }
 .ilPlayerPreviewPlayButton {
-  background: url("../../../../templates/default/images/bigplay.svg") no-repeat scroll 0 0 transparent;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/bigplay.svg") no-repeat scroll 0 0 transparent;
   height: 100px;
   left: 50%;
   margin: -50px 0 0 -50px;
@@ -9871,17 +9871,17 @@ div.ilc_PredTextPlaceHolderThumb {
   padding: 5px 2px 5px 0;
   border: 1px solid gray;
   font-size: 10px;
-  background: url("../../../../templates/default/images/question_placeholder_thumb.png") no-repeat center;
+  background: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/question_placeholder_thumb.png") no-repeat center;
   font-weight: bold;
 }
 div.ilc_MediaPlaceHolderThumb {
-  background-image: url("../../../../templates/default/images/media_placeholder_thumb.png");
+  background-image: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/media_placeholder_thumb.png");
 }
 div.ilc_TextPlaceHolderThumb {
-  background-image: url("../../../../templates/default/images/text_placeholder_thumb.png");
+  background-image: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/text_placeholder_thumb.png");
 }
 div.ilc_PredTextPlaceHolderThumb {
-  background-image: url("../../../../templates/default/images/pred_text_placeholder_thumb.png");
+  background-image: url("/ilias.master/ilias52.wb.git-17050/templates/default/images/pred_text_placeholder_thumb.png");
 }
 div.ilc_HeadlineThumb {
   font-size: 11px;
@@ -11431,7 +11431,7 @@ div.ilPCMyCoursesPath {
   max-width: 0;
 }
 .ilAwarenessDropDown .media-body.ilAwarenessOnline {
-  background-image: url('../../../../templates/default/images/scorm/completed.svg');
+  background-image: url('/ilias.master/ilias52.wb.git-17050/templates/default/images/scorm/completed.svg');
 }
 .ilAwarenessLoader {
   display: block;
@@ -12729,7 +12729,7 @@ div.ilHeaderAlert {
   color: #c1002a;
 }
 .dropdown-menu {
-  background-color: #f2f3f1;
+  background-color: #5cc3af;
 }
 h3.ilHeader {
   text-transform: none;
@@ -12777,7 +12777,7 @@ h3.ilHeader {
   }
 }
 #ilAll {
-  background-color: #f2f3f1;
+  background-color: #5cc3af;
 }
 /**
 * ILIAS Head
@@ -12852,7 +12852,7 @@ h3.ilHeader {
 }
 #ilTopNav.navbar-default,
 .navbar-collapse {
-  background-color: #e0e1dd;
+  background-color: #5cc3af;
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -12862,7 +12862,7 @@ h3.ilHeader {
 #ilTopNav .navbar-nav > .open > a:active,
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
-  background-color: #e0e1dd;
+  background-color: #5cc3af;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -12873,11 +12873,11 @@ h3.ilHeader {
 * Dropdown Menu
 */
 .dropdown-menu {
-  background-color: #f2f3f1;
+  background-color: #5cc3af;
 }
 .dropdown-header {
   font-size: 14px;
-  background-color: #e0e1dd;
+  background-color: #5cc3af;
   font-weight: bold;
 }
 .dropdown-menu li > a:hover,
@@ -12900,7 +12900,7 @@ h3.ilHeader {
   color: #fff;
 }
 #ilTopBarNav .dropdown-menu {
-  background-color: #e0e1dd;
+  background-color: #5cc3af;
 }
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a {
   color: #363534;
@@ -12926,7 +12926,7 @@ h3.ilHeader {
     top: 40px;
   }
   #ilTopBarNav.dropdown-menu {
-    background-color: #f2f3f1;
+    background-color: #5cc3af;
     top: 40px;
   }
   #unifrContent {
@@ -12974,7 +12974,7 @@ a.ilTreeView {
   width: 0px;
 }
 a.ilTreeView > img {
-  background-color: #f2f3f1;
+  background-color: #5cc3af;
   border-right: none;
   width: 10px;
   height: 38px;
@@ -12983,7 +12983,7 @@ a#imgtree {
   top: 160px;
 }
 .ilLeftNav {
-  background-color: #f2f3f1;
+  background-color: #5cc3af;
   border-right: 1px solid #808080;
   z-index: 0;
   width: 289 px;
@@ -13076,7 +13076,7 @@ a#il_mhead_t_focus {
   left: 10px;
 }
 .ilToolbar.navbar {
-  background-color: #e0e1dd;
+  background-color: #5cc3af;
 }
 div.ilNewObjectSelector {
   padding-right: 0px;
