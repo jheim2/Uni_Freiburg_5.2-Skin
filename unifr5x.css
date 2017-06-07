@@ -12767,10 +12767,10 @@ h3.ilHeader {
     height: calc(100% - 136px);
   }
   #ilTopNav {
-    margin: -30px 0 0 -2px;
+    margin: -124px 0 0 -2px;
   }
   #ilTopNav.navbar {
-    min-height: 22px;
+    min-height: 48px;
   }
   #ilTopBarNav .dropdown-menu {
     top: 76px !important;
