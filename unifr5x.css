@@ -12803,7 +12803,7 @@ h3.ilHeader {
 }
 .ilTopTitle {
   position: absolute;
-  top: 1px;
+  top: -2px;
   left: 0px;
   font-size: 16pt;
   font-family: "Arial", non serif;
