@@ -3638,7 +3638,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #f0f0f0;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #5cc3af;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -12750,7 +12750,7 @@ h3.ilHeader {
     position: fixed;
   }
   #unifrLeftBannerLogo {
-    background-image: url(images/unifr_campus_col_66x172.png);
+    background-image: url(images/unilogo_e2.svg);
     background-repeat: no-repeat;
     width: 66px;
     height: 196px;
