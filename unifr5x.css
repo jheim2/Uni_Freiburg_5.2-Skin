@@ -12849,7 +12849,7 @@ h3.ilHeader {
   font-size: 10pt;
   color: #ffffff;
   border-right: 1px solid grey;
-  margin: 0;
+  margin-top: 22px;
 }
 #ilTopNav.navbar-default,
 .navbar-collapse {
