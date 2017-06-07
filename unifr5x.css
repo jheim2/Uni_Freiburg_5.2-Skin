@@ -12729,7 +12729,7 @@ div.ilHeaderAlert {
   color: #c1002a;
 }
 .dropdown-menu {
-  background-color: #5cc3af;
+  background-color: #808080;
 }
 h3.ilHeader {
   text-transform: none;
@@ -12779,7 +12779,7 @@ h3.ilHeader {
   }
 }
 #ilAll {
-  background-color: #5cc3af;
+  background-color: #808080;
 }
 /**
 * ILIAS Head
@@ -12926,7 +12926,7 @@ h3.ilHeader {
     top: 40px;
   }
   #ilTopBarNav.dropdown-menu {
-    background-color: #5cc3af;
+    background-color: #808080;
     top: 40px;
   }
   #unifrContent {
@@ -12974,7 +12974,7 @@ a.ilTreeView {
   width: 0px;
 }
 a.ilTreeView > img {
-  background-color: #5cc3af;
+  background-color: #808080;
   border-right: none;
   width: 10px;
   height: 38px;
@@ -12983,7 +12983,7 @@ a#imgtree {
   top: 160px;
 }
 .ilLeftNav {
-  background-color: #5cc3af;
+  background-color: #808080;
   border-right: 1px solid #808080;
   z-index: 0;
   width: 289 px;
@@ -13076,7 +13076,7 @@ a#il_mhead_t_focus {
   left: 10px;
 }
 .ilToolbar.navbar {
-  background-color: #5cc3af;
+  background-color: #808080;
 }
 div.ilNewObjectSelector {
   padding-right: 0px;
