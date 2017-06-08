@@ -12743,7 +12743,7 @@ h3.ilHeader {
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
   #unifrLeftBanner {
-    background-color: #fff;
+    background-color: #f8f8f8;
     width: 66px;
     z-index: 10;
     height: 100%;
