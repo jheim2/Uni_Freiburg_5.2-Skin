@@ -12848,7 +12848,7 @@ h3.ilHeader {
   padding: 0 10px 0 10px;
   font-size: 10pt;
   color: #ffffff;
-  border-right: 1px solid grey;
+  border-right: 0px solid grey;
   margin-top: 22px;
   font-weight: bold;
 }
