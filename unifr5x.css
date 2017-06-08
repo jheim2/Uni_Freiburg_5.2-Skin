@@ -12801,7 +12801,7 @@ h3.ilHeader {
   right: 0px;
 }
 #ilTopBar.ilTopBar {
-  background-color: #004a99;
+  background-color: #0054a6;
   height: 30px;
 }
 .ilTopTitle {
@@ -13010,7 +13010,7 @@ body.std {
 * Footer
 */
 footer.ilFooter {
-  background-color: #004a99;
+  background-color: #0054a6;
   height: 30px;
   padding: 2px 0 0 17px;
 }
@@ -13031,13 +13031,13 @@ footer.ilFooter {
 #ilTab.nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 #ilTab.nav-tabs > li.active > a:focus {
-  background-color: #004a99;
+  background-color: #0054a6;
 }
 #ilTab {
-  border-color: -moz-use-text-color -moz-use-text-color #004a99;
+  border-color: -moz-use-text-color -moz-use-text-color #0054a6;
 }
 #ilTab {
-  border-bottom: 2px solid #004a99;
+  border-bottom: 2px solid #0054a6;
 }
 #ilTab.nav > li > a:hover,
 #ilTab.nav > li > a:focus {
