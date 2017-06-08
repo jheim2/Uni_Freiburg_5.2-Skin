@@ -12821,7 +12821,7 @@ h3.ilHeader {
 }
 /* Responsive MainMenu Button */
 #ilTopNav button.navbar-toggle {
-  background-color: #2a6ebb;
+  background-color: #3379c2;
   left: 40px;
   top: 0px;
 }
@@ -12891,7 +12891,7 @@ h3.ilHeader {
 * User Setting Buttons
 */
 #ilTopBarNav > li > a {
-  background-color: #2a6ebb;
+  background-color: #3379c2;
   top: 36px;
 }
 #ilTopBarNav .dropdown-menu a {
@@ -12918,7 +12918,7 @@ h3.ilHeader {
     height: 40px;
   }
   #ilTopBarNav > li > a {
-    background-color: #2a6ebb;
+    background-color: #3379c2;
     top: 0px;
   }
   .ilTopFixed {
