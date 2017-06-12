@@ -12914,6 +12914,10 @@ h3.ilHeader {
 #ilMMSearchMenu p {
   color: #363534;
 }
+#ilTopBarNav #userlog > a img {
+  height: 30px;
+  width: 30px;
+}
 /* no left Banner, Content responsive */
 @media screen and (max-width: 767px) {
   #ilTopBar.ilTopBar {
