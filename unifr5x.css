@@ -13021,6 +13021,8 @@ footer.ilFooter {
   background-color: #c6c2c6;
   height: 30px;
   padding: 2px 0 0 17px;
+  font-family: Calibri;
+  font-color: black;
 }
 /**
 * Buttons
