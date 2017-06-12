@@ -12897,6 +12897,7 @@ h3.ilHeader {
   background-color: #3379c2;
   top: 35px;
   height: 29px;
+  padding: 5px;
 }
 #ilTopBarNav .dropdown-menu a {
   color: #white;
