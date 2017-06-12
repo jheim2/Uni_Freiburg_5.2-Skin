@@ -13023,8 +13023,7 @@ footer.ilFooter {
   height: 30px;
   padding: 2px 0 0 17px;
 }
-footer,
-ilFooter div.ilFooterContainer {
+footer.ilFooter div.ilFooterContainer {
   color: black;
 }
 /**
