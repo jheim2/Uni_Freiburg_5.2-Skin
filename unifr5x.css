@@ -12890,6 +12890,9 @@ h3.ilHeader {
 /**
 * User Setting Buttons
 */
+#ilTopBarNav {
+  margin: -35px 14px 0 0;
+}
 #ilTopBarNav > li > a {
   background-color: #3379c2;
   top: 36px;
