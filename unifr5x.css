@@ -12769,7 +12769,7 @@ h3.ilHeader {
     height: calc(100% - 136px);
   }
   #ilTopNav {
-    margin: -124px 0 0 -2px;
+    margin: -124px -2px 0 -2px;
   }
   #ilTopNav.navbar {
     min-height: 48px;
