@@ -12902,7 +12902,7 @@ h3.ilHeader {
   height: 29px;
   padding: 5px;
 }
-a.wb_login {
+#ilTopBarNav > .wb_login {
   background-color: red;
 }
 #ilTopBarNav .dropdown-menu a {
