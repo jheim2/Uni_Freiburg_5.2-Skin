@@ -12876,6 +12876,9 @@ h3.ilHeader {
 .dropdown-menu {
   background-color: #5cc3af;
 }
+.dropdown-menu li > a {
+  color: #white;
+}
 .dropdown-header {
   font-size: 14px;
   background-color: #5cc3af;
