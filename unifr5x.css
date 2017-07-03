@@ -12905,7 +12905,7 @@ h3.ilHeader {
 #ilTopBarNav .wb_login {
   background-color: #881529;
 }
-#ilTopBarNav .wb_login a:hover {
+#ilTopBarNav .wb_login:hover {
   background-color: #526e91;
 }
 #ilTopBarNav .dropdown-menu a {
