@@ -13044,6 +13044,9 @@ footer.ilFooter div.ilFooterContainer > a {
   background-color: #92d400;
   border-color: #92d400;
 }
+.btn-primary:hover {
+  background-color: #526e91;
+}
 /**
 * Tabs
 **/
