@@ -12868,7 +12868,7 @@ h3.ilHeader {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: #2a6ebb;
-  color: #ffffff;
+  color: black;
 }
 /**
 * Dropdown Menu
@@ -12878,7 +12878,7 @@ h3.ilHeader {
   box-shadow: none;
 }
 .dropdown-menu li > a {
-  color: #ffffff;
+  color: black;
 }
 .dropdown-header {
   font-size: 14px;
@@ -12888,7 +12888,7 @@ h3.ilHeader {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   background-color: #2a6ebb;
-  color: #ffffff;
+  color: black;
 }
 /**
 * User Setting Buttons
