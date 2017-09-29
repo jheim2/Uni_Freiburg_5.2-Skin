@@ -12909,7 +12909,7 @@ h3.ilHeader {
   background-color: #526e91;
 }
 #ilTopBarNav .dropdown-menu a {
-  color: #white;
+  color: #black;
 }
 #ilTopBarNav .dropdown-menu a:hover {
   background-color: #2a6ebb;
@@ -12919,7 +12919,7 @@ h3.ilHeader {
   background-color: #d1d3d4;
 }
 #ilTopBarNav .dropdown-menu #ilMMSearchMenu a {
-  color: #white;
+  color: #black;
 }
 #ilMMSearchMenu p {
   color: #363534;
