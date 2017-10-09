@@ -12867,7 +12867,7 @@ h3.ilHeader {
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  background-color: #2a6ebb;
+  background-color: #white;
   color: black;
 }
 /**
@@ -12887,7 +12887,7 @@ h3.ilHeader {
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
-  background-color: #2a6ebb;
+  background-color: #white;
   color: black;
 }
 /**
@@ -12912,7 +12912,7 @@ h3.ilHeader {
   color: #black;
 }
 #ilTopBarNav .dropdown-menu a:hover {
-  background-color: #2a6ebb;
+  background-color: #white;
   color: #fff;
 }
 #ilTopBarNav .dropdown-menu {
@@ -13073,7 +13073,7 @@ footer.ilFooter div.ilFooterContainer > a {
 #ilTab.nav > li > a:hover,
 #ilTab.nav > li > a:focus {
   color: #fff;
-  background-color: #2a6ebb;
+  background-color: #white;
 }
 /**
 * Fonts
