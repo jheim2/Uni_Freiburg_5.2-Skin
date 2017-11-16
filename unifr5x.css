@@ -13129,7 +13129,7 @@ footer.ilFooter div.ilFooterContainer > a {
 }
 #ilTab.nav > li > a:hover,
 #ilTab.nav > li > a:focus {
-  color: #fff;
+  color: #909090;
   background-color: #white;
 }
 /**
