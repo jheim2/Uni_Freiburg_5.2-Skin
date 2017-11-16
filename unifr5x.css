@@ -12791,11 +12791,11 @@ div.ilHeaderAlert {
 h3.ilHeader {
   text-transform: none;
 }
-/* ILIAS Content */
+/* ILIAS Content*/
 #unifrContent {
   right: 0px;
   padding-left: 67px;
-  padding-top: 137px;
+  padding-top: 37px;
 }
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
