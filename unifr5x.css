@@ -12797,15 +12797,12 @@ h3.ilHeader {
   padding-left: 67px;
   padding-top: 137px;
 }
-/* ILIAS Content* Learning Module/ 
+/* ILIAS Content* Learning Module*/
 #unifrContent_lm {
-  //position: absolute;
   right: 0px;
   padding-left: 67px;
   padding-top: 80px;
 }
-
-
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
   #unifrLeftBanner {
