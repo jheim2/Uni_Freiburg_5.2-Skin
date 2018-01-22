@@ -12804,7 +12804,7 @@ h3.ilHeader {
   padding-top: 80px;
 }
 div.il_HeaderInner.media {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
@@ -12827,6 +12827,9 @@ div.il_HeaderInner.media {
     color: #222;
     margin-bottom: 5px;
     padding: 25px;
+  }
+  div.il_HeaderInner.media {
+    margin-top: 20px;
   }
   .ilTopBar {
     height: 30px;
