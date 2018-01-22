@@ -12820,7 +12820,7 @@ h3.ilHeader {
     margin: 11px;
     margin-top: 15px;
   }
-  div.il_HeaderInner {
+  .il_HeaderInner {
     color: #222;
     margin-bottom: 5px;
     padding: 25px;
@@ -12891,7 +12891,6 @@ h3.ilHeader {
 #ilTopNav button.navbar-toggle {
   background-color: #d1d3d4;
   left: 40px;
-  top: 0px;
 }
 /**
 * MainMenu
