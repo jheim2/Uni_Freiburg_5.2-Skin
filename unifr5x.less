@@ -1,7 +1,6 @@
 @import "../../ilias52.wb.git-171017/templates/default/delos.less";
 @import "variables.less";
 
-
 /* Uni Freiburg 5.x ILIAS Skin */
 
 @background-images-path: "../../../../templates/default/images/";
@@ -121,9 +120,7 @@ h3.ilHeader {
 
 //############# End Marko's modififcations ###################
 
-
-
-/* ILIAS Content*/ 
+/* ILIAS Content*/
 #unifrContent {
   //position: absolute;
   right: 0px;
@@ -131,7 +128,7 @@ h3.ilHeader {
   padding-top: 137px;
 }
 
-/* ILIAS Content* Learning Module*/ 
+/* ILIAS Content* Learning Module*/
 #unifrContent_lm {
   //position: absolute;
   right: 0px;
@@ -140,11 +137,12 @@ h3.ilHeader {
 }
 
 div.il_HeaderInner.media {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
+
   #unifrLeftBanner {
 	background-color: #f8f8f8;
 
@@ -169,12 +167,12 @@ div.il_HeaderInner.media {
    .il_HeaderInner {
                 color: #222;
                 margin-bottom: 5px;
-                padding: 25px;                                    
+                padding: 25px;
        }
-   
-div.il_HeaderInner.media {                                                                                                                                                                                        
-  margin-top: 20px;
-}
+
+div.il_HeaderInner.media {
+  margin-top: 40px;
+  }
   .ilTopBar {
 	height: 30px; //johannes
   }
@@ -190,7 +188,7 @@ div.il_HeaderInner.media {
   }
 
   #ilTopNav {
-	margin: -124px -2px 0 -2px; //johannes
+	margin: -123px -12px 0 -2px; //johannes
   }
 
   #ilTopNav.navbar {
@@ -201,15 +199,17 @@ div.il_HeaderInner.media {
 	top: 76px !important;
   }
 
+  #ilTopBarNav {
+  	margin: 0px 25px 0 0; //johannes
+  	}
 }
-
 
 
 
 #ilAll {
   background-color: @background_grey;
   margin-top: -58px;
-}
+  }
 
 /**
 * ILIAS Head
@@ -224,7 +224,7 @@ div.il_HeaderInner.media {
   border-bottom: none;
   margin-left: 0px;
   margin-right: 0px;
-}
+  }
 
 .ilFixedTopSpacer {
   margin-left: auto;
@@ -235,7 +235,7 @@ div.il_HeaderInner.media {
 #ilTopBar.ilTopBar {
   background-color: @unifr_blue;
   height: 30px; //marko
-}
+  }
 
 .ilTopTitle {
   position: absolute;
@@ -245,7 +245,7 @@ div.il_HeaderInner.media {
   font-family: "Arial",non serif;
   padding: 0 0 0 15px; //johannes
   font-weight: normal;
-}
+  }
 
 .ilTopSubtitle {
   position: absolute;
@@ -253,17 +253,14 @@ div.il_HeaderInner.media {
   //  left: 196px; //marko
   padding: 0 0 0 196px; //marko
   font-family: helvetica, arial;
-}
-
-
+  }
 
 /* Responsive MainMenu Button */
 #ilTopNav button.navbar-toggle {
   background-color: @navbar_color; //@topbarnav_lightblue;
   left: 40px;
   //top: 0px; //marko
-}
-
+  }
 
 /**
 * MainMenu
@@ -271,8 +268,6 @@ div.il_HeaderInner.media {
 .ilMainMenu.ilTopFixed {
   top: 154px;
 }
-
-
 
 #ilTopNav .navbar-nav > .open > a:focus {
   border-top: none;
@@ -282,9 +277,6 @@ div.il_HeaderInner.media {
 #ilTopNav .navbar-nav > li.open > a {
   border-top:none;
 }
-
-
-
 
 #ilTopNav.navbar > .navbar-collapse {
   padding: 0 0 0 0px;
@@ -318,8 +310,6 @@ div.il_HeaderInner.media {
   color: black;
 }
 
-
-
 /**
 * Dropdown Menu
 */
@@ -328,11 +318,9 @@ div.il_HeaderInner.media {
   box-shadow: none;
 }
 
-
 .dropdown-menu li > a {
   color: black;
 }
-
 
 .dropdown-header {
   font-size: 14px;
@@ -400,6 +388,11 @@ div.il_HeaderInner.media {
 
 @media screen and (max-width: 767px) {
 
+  #ilMMSearch {
+    position: relative;
+    left: 120px;
+  }
+
   #ilTopBar.ilTopBar {
 	background-image: url(images/schema_unifr_marg.png); //marko
 	background-repeat: no-repeat; //marko
@@ -426,7 +419,10 @@ div.il_HeaderInner.media {
 	background-color: @background_grey; //marko
 	top: 40px;
   }
-
+  #ilTopBarNav {
+    margin: 5px;
+    padding-right: 30px;
+  }
 
 #unifrContent {
 	left: 0px;
@@ -445,8 +441,6 @@ div.il_HeaderInner.media {
 	display: none;
   }
 
-
-
   #ilTopNav {
 	margin: 0px 0 0 0px;
   }
@@ -458,10 +452,14 @@ div.il_HeaderInner.media {
   #headerimage {
     margin-top: 30px;
  }
+ div.il_HeaderInner.media {
+   margin-top: 45px;
+ }
+ .container {
+   padding-top: 50px;
+ }
 
 }
-
-
 
 /**
 * Do not Display ILIAS Logo
@@ -595,7 +593,6 @@ color: black;
   background-color: @navbar_background_hover;
 }
 
-
 /**
 * Fonts
 **/
@@ -626,7 +623,6 @@ a#il_mhead_t_focus  {
   display: none;
 }
 
-
 .ilBodyPrint #unifrLeftBanner{
   display: none;
 }
@@ -652,4 +648,4 @@ div.ilBlockRow1 {
 .ilFrmPostTitle .alert-danger {
   background-color: inherit !important;
   border: inherit !important;
-} 
+}

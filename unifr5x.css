@@ -12804,7 +12804,7 @@ h3.ilHeader {
   padding-top: 80px;
 }
 div.il_HeaderInner.media {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
@@ -12829,7 +12829,7 @@ div.il_HeaderInner.media {
     padding: 25px;
   }
   div.il_HeaderInner.media {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .ilTopBar {
     height: 30px;
@@ -12843,13 +12843,16 @@ div.il_HeaderInner.media {
     height: calc(100% - 136px);
   }
   #ilTopNav {
-    margin: -124px -2px 0 -2px;
+    margin: -123px -12px 0 -2px;
   }
   #ilTopNav.navbar {
     min-height: 48px;
   }
   #ilTopBarNav .dropdown-menu {
     top: 76px !important;
+  }
+  #ilTopBarNav {
+    margin: 0px 25px 0 0;
   }
 }
 #ilAll {
@@ -13003,6 +13006,10 @@ div.il_HeaderInner.media {
 }
 /* no left Banner, Content responsive */
 @media screen and (max-width: 767px) {
+  #ilMMSearch {
+    position: relative;
+    left: 120px;
+  }
   #ilTopBar.ilTopBar {
     background-image: url(images/schema_unifr_marg.png);
     background-repeat: no-repeat;
@@ -13021,6 +13028,10 @@ div.il_HeaderInner.media {
   #ilTopBarNav.dropdown-menu {
     background-color: #f0f0f0;
     top: 40px;
+  }
+  #ilTopBarNav {
+    margin: 5px;
+    padding-right: 30px;
   }
   #unifrContent {
     left: 0px;
@@ -13044,6 +13055,12 @@ div.il_HeaderInner.media {
   }
   #headerimage {
     margin-top: 30px;
+  }
+  div.il_HeaderInner.media {
+    margin-top: 45px;
+  }
+  .container {
+    padding-top: 50px;
   }
 }
 /**
