@@ -1,4 +1,4 @@
-@import "../../ilias53.wb.git-180309/templates/default/delos.less";
+@import "../../../../templates/default/delos.less";
 @import "variables.less";
 
 /* Uni Freiburg 5.x ILIAS Skin */
@@ -13,7 +13,7 @@
 @background_grey: #f0f0f0; //grey-0
 //@background_mint: #5cc3af; //grey-0
 @background_mint: #d1d3d4; //grey-0
-@navbar_background_grey: grey; //grey-1
+@navbar_background_grey: white; //grey-1
 @navbar_background_mint: #d1d3d4; //5cc3af; //grey-1
 //@navbar_mint: #5cc3af; //grey-1
 @navbar_color: #d1d3d4; //grey-1
@@ -142,6 +142,10 @@ div.il_HeaderInner.media {
 
 /* Left Banner, Content normal */
 @media screen and (min-width: 767px) {
+
+  #headerimage {
+   margin-top: 0px;
+   }
 
   #unifrLeftBanner {
 	background-color: #f8f8f8;
@@ -388,10 +392,19 @@ div.il_HeaderInner.media {
 
 @media screen and (max-width: 767px) {
 
-  #ilMMSearch {
+#ilTopBarNav {
+        margin: -35px 0 0 0; //johannes
+        }
+ 
+
+ #ilMMSearch {
     position: relative;
     left: 120px;
   }
+
+  #headerimage {
+  margin-top: 0px;
+}
 
   #ilTopBar.ilTopBar {
 	background-image: url(images/schema_unifr_marg.png); //marko
@@ -403,7 +416,6 @@ div.il_HeaderInner.media {
   }
 
   #ilTopBarNav > li > a {
-	background-color: @topbarnav_lightblue;
 	top: 0px;
   }
 
@@ -421,7 +433,7 @@ div.il_HeaderInner.media {
   }
   #ilTopBarNav {
     margin: 5px;
-    padding-right: 30px;
+    padding-right: 62px;
   }
 
 #unifrContent {
@@ -449,9 +461,6 @@ div.il_HeaderInner.media {
 	height: 0px;
   }
 
-  #headerimage {
-    margin-top: 30px;
- }
  div.il_HeaderInner.media {
    margin-top: 45px;
  }
